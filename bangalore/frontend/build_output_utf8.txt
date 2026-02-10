@@ -1,0 +1,20 @@
+﻿The variable '$LASTEXITCODE' cannot be retrieved 
+because it has not been set.
+At E:\program files\npx.ps1:17 char:5
++ if ($LASTEXITCODE -ne 0) {
++     ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation:  
+   (LASTEXITCODE:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefine 
+   d
+ 
+The variable '$LASTEXITCODE' cannot be retrieved 
+because it has not been set.
+At E:\program files\npx.ps1:50 char:6
++ exit $LASTEXITCODE
++      ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation:  
+   (LASTEXITCODE:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefine 
+   d
+ 
